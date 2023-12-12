@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controllers;
+package one.digitalinnovation.parking.controllers.mapper;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
-import one.digitalinnovation.parking.dto.ParkingCreateDTO;
-import one.digitalinnovation.parking.dto.ParkingDTO;
+import one.digitalinnovation.parking.controllers.dtos.ParkingCreateDTO;
+import one.digitalinnovation.parking.controllers.dtos.ParkingDTO;
 import one.digitalinnovation.parking.models.Parking;
 
 @Component
